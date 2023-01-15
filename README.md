@@ -4,8 +4,11 @@ Site accessible at https://phonebook-mrje.onrender.com/
 
 API through:
 
-all persons: https://phonebook-mrje.onrender.com/api/persons
+all persons: GET https://phonebook-mrje.onrender.com/api/persons
 
-individual:  https://phonebook-mrje.onrender.com/api/persons/:id
+individual:  GET https://phonebook-mrje.onrender.com/api/persons/:id
 
-info:        https://phonebook-mrje.onrender.com/info
+info:        GET https://phonebook-mrje.onrender.com/info
+
+new person:  POST https://phonebook-mrje.onrender.com/api/persons
+(requires json format with name, number attribtues)
